@@ -42,7 +42,7 @@
   <worldbody>
     <body name="base_link" pos="0 -0.0762001 0.8" childclass="biped_wheel">
         <inertial pos="-0.03497 7.1375E-05 0.055169" quat="1 0 0 0" mass="2.327" diaginertia="0.010702 0.010715 0.014614" />
-        <freejoint />
+        <!-- <freejoint /> -->
         <site name="imu" pos="0 0 0" />
         <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.156863 0.156863 0.156863 1" mesh="base_link"/>
         <geom size="0.1085 0.082 0.07" pos="-0.036 0 0.058" type="box" class="collision"/>
@@ -138,7 +138,7 @@
       <frameangvel name="frame_ang_vel" objtype="site" objname="imu" />
   </sensor>
 
-  <keyframe>
+  <!-- <keyframe>
     <key name="home" qpos="0 0 0.2 1 0 0 0 1.22 -1.92 0 1.22 -1.92 0" ctrl="1.22 -1.92 0 1.22 -1.92 0" />
-  </keyframe>
+  </keyframe> -->
 </mujoco>
