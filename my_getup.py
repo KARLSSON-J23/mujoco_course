@@ -66,7 +66,7 @@ import mujoco
 import mujoco.viewer
 import numpy as np
 
-MODEL_PATH = 'pineapple_v0/my_robot.xml'
+MODEL_PATH = 'robot/pineapple_v0/my_robot.xml'
 SIMULATION_DT = 0.005
 
 # ---- 平衡：內層（傾角 → 輪子力矩）----

@@ -23,7 +23,7 @@ def pd_control(target_q, q, kp, target_dq, dq, kd):
 NUM_MOTOR = 6
 SIMULATION_DT = 0.005
 
-model = mujoco.MjModel.from_xml_path('pineapple_v0/my_robot.xml')
+model = mujoco.MjModel.from_xml_path('robot/pineapple_v0/my_robot.xml')
 data = mujoco.MjData(model)
 model.opt.timestep = SIMULATION_DT
 

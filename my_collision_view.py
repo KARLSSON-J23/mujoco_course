@@ -8,7 +8,7 @@ import time
 import mujoco
 import mujoco.viewer
 
-model = mujoco.MjModel.from_xml_path('pineapple_v0/my_robot.xml')
+model = mujoco.MjModel.from_xml_path('robot/pineapple_v0/my_robot.xml')
 data = mujoco.MjData(model)
 
 with mujoco.viewer.launch_passive(model, data) as viewer:
